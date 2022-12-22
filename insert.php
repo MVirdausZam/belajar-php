@@ -1,6 +1,7 @@
 <?php 
 include "koneksi.php";
-$sql = "INSERT INTO MyGuests (firstname, lastname, email) VALUES ('Shalva', 'Sabrina', 'john@example.com')";
+$sql = "INSERT INTO MyGuests (firstname, lastname, email) VALUES ('John', 'Doe', 'john@example.com')";
+$sql = "INSERT INTO MyGuests (firstname, lastname, email) VALUES ('Pak Dhi', 'Bateng', 'pakdhibanteng@example.com')";
 
 if ($connection->query($sql) === TRUE) {
     $last_id = $connection->insert_id;

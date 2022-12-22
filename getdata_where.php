@@ -1,7 +1,7 @@
 <?php
 include "koneksi.php";
 
-$sql = "SELECT id, firstname, lastname FROM MyGuests WHERE lastname='sabrina'";
+$sql = "SELECT id, firstname, lastname FROM MyGuests WHERE lastname='Doe'";
 $result = $connection->query($sql);
 
 if  ($result->num_rows > 0) {
